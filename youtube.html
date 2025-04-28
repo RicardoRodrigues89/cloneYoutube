@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone do YouTube</title>
+    <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/siderbar.css">
+    <link rel="stylesheet" href="./styles/video.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="./icons/hamburger-menu.svg">
+            <img class="youtube-logo" src="./icons/youtube-logo.svg">
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" placeholder="Search" type="text">
+            <button class="search-button">
+                <img class="search-icon" src="./icons/search.svg">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-button">
+                <img class="voice-icon" src="./icons/voice-search-icon.svg">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <div class="upload-icon-container">
+                <img class="upload-icon" src="./icons/upload.svg">
+                <div class="tooltip">Create</div>
+            </div>
+            <img class="youtube-apps-icon" src="./icons/youtube-apps.svg">
+            <div class="notification-icon-container">
+                <img class="notification-icon" src="./icons/notifications.svg">
+                <div class="notification-count">3</div>
+            </div>
+            <img class="user-picture" src="./channel-picture/channel-pic.jpg">
+        </div>
+    </div>
+    
+    <div class="siderBar">
+        <div class="sidebar-link">
+            <img src="./icons/home.svg">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="./icons/explore.svg">
+            <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="./icons/subscriptions.svg">
+            <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="./icons/originals.svg">
+            <div>Originals</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="./icons/youtube-music.svg">
+            <div>YouTube Music</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="./icons/library.svg">
+            <div>Library</div>
+        </div>
+    </div>
+
+    <div class="video-grid">
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY"><img class="thumbnail-video" src="./thumbnails/thumbnail-1.webp"></a>
+                <div class="video-time">14:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@mkbhd"><img class="profile-picture" src="./channel-picture/channel-1.jpeg"></a>
+                    <div class="tooltip">
+                        <img class="profile-picture" src="./channel-picture/channel-1.jpeg">
+                        <div class="channel-info">
+                            <p class="channel-name">Marques Brownlee</p>
+                            <p class="channel-stats">15M subscribers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <a class="title-video" href="https://www.youtube.com/watch?v=n2RNcPRtAiY">Falando de Tech e AI com CEO da Google Sundar Pichai!</a>
+                    <p class="author-video">Marques Brownlee</p>
+                    <p class="stats-video">3.4M Visualizações &#183 6 meses antes</p>
+                </div>  
+            </div>
+        </div>
+    
+    
+    
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail-video" src="./thumbnails/thumbnail-2.webp">
+                <div class="video-time">8:22</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="./channel-picture/channel-2.jpeg">
+                </div>
+                <div class="video-info">
+                    <p class="title-video">Desafio Tente Não Rir #9</p>
+                    <p class="author-video">Markiplier</p>
+                    <p class="stats-video">19M Visualizações &#183  4 anos atrás</p>
+                </div>  
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail-video" src="./thumbnails/thumbnail-3.webp">
+                <div class="video-time">9:13</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="./channel-picture/channel-3.jpeg">
+                </div>
+                <div class="video-info">
+                    <p class="title-video">Tik toks malucos tirados momentos antes do DESASTRE</p>
+                    <p class="author-video">SSSniperWolf</p>
+                    <p class="stats-video">12M Visualizações &#183 1 ano atrás</p>
+                </div>  
+            </div>
+        </div>
+    
+    
+    
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail-video" src="./thumbnails/thumbnail-4.webp">
+                <div class="video-time">22:09</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="./channel-picture/channel-4.jpeg">
+                </div>
+                <div class="video-info">
+                    <p class="title-video">
+                        O problema matemático que ninguém consegue resolver - Conjectura de Collatz</p>
+                    <p class="author-video">Veritasium</p>
+                    <p class="stats-video">18M Visualizações &#183 4 meses atrás</p>
+                </div>  
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail-video" src="./thumbnails/thumbnail-5.webp">
+                <div class="video-time">11:17</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="./channel-picture/channel-5.jpeg">
+                </div>
+                <div class="video-info">
+                    <p class="title-video">Algoritmo de Kadane para Problema Sub array de Soma Máxima</p>
+                    <p class="author-video">CS Dojo</p>
+                    <p class="stats-video">519K Visualizações &#183 5 anos atrás</p>
+                </div>  
+            </div>
+        </div>
+    
+    
+    
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail-video" src="./thumbnails/thumbnail-6.webp">
+                <div class="video-time">19:59</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="./channel-picture/channel-6.jpeg">
+                </div>
+                <div class="video-info">
+                    <p class="title-video">Qualquer coisa que você puder colocar no círculo, eu pagarei</p>
+                    <p class="author-video">MrBeast</p>
+                    <p class="stats-video">141M Visualizações &#183 1 ano atrás</p>
+                </div>  
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
